@@ -1,12 +1,11 @@
 //@ts-nocheck
+import Todo from './Todo'
 
-import Todo from "./Todo"
-
-const TodoList = ({todos}) => {
+const TodoList = ({ todos }) => {
   return (
     <div>
-      {todos.map(todos =>(
-        <Todo todo={todo} key={todo.id}/>
+      {todos.map((todo) => (
+        <Todo key={todo.id} todo={todo} />
       ))}
     </div>
   )
