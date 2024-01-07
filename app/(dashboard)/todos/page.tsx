@@ -1,4 +1,3 @@
-//@ts-nocheck
 import TodoList from "@/app/components/TodoList"
 import db from "../../utils/db"
 
